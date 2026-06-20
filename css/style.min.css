@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    color: #e23d1e;
+    color: #f8b95d;
     line-height: 1;
     font-family: Fyodor;
     font-size: 1.25rem;
@@ -235,7 +235,7 @@ h6 {
     left: 0;
     width: 100%;
     border-bottom: .125rem solid #000;
-    background-color: #e23d1e;
+    background-color: #f8b95d;
     height: 3.875rem;
     overflow: hidden
 }
@@ -277,7 +277,7 @@ h6 {
 }
 
 .header__buy span {
-    color: #e23d1e;
+    color: #f8b95d;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -302,7 +302,7 @@ h6 {
 }
 
 .footer__container>span {
-    color: #e23d1e;
+    color: #f8b95d;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -317,7 +317,7 @@ h6 {
 
 .footer__container>a span {
     display: inline-block;
-    color: #e23d1e;
+    color: #f8b95d;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -424,7 +424,7 @@ h6 {
 }
 
 .hero__title {
-    color: #e23d1e;
+    color: #f8b95d;
     font-family: Russian;
     font-style: normal;
     font-weight: 400;
@@ -442,7 +442,7 @@ h6 {
 }
 
 .hero__text {
-    color: #e23d1e;
+    color: #f8b95d;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -485,7 +485,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e23d1e;
+    background-color: #f8b95d;
     box-shadow: 0 .25rem 0 0 #000;
     transition: box-shadow .2s ease 0s, -webkit-transform .2s ease 0s;
     transition: box-shadow .2s ease 0s, transform .2s ease 0s;
@@ -519,7 +519,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e23d1e;
+    background-color: #f8b95d;
     box-shadow: 0 .25rem 0 0 #000;
     transition: box-shadow .2s ease 0s, -webkit-transform .2s ease 0s;
     transition: box-shadow .2s ease 0s, transform .2s ease 0s;
@@ -814,7 +814,7 @@ h6 {
 .about-how__info {
     position: relative;
     z-index: 4;
-    background: linear-gradient(267deg, #e23d1e .98%, rgba(236, 230, 222, 0) 104.23%);
+    background: linear-gradient(267deg, #f8b95d .98%, rgba(236, 230, 222, 0) 104.23%);
     box-shadow: 0 29px 0 rgba(0, 0, 0, .15);
     -webkit-transform: skewY(-7deg);
     transform: skewY(-7deg)
@@ -883,7 +883,7 @@ h6 {
     pointer-events: all;
     -webkit-user-select: all;
     user-select: all;
-    color: #e23d1e;
+    color: #f8b95d;
     font-family: Russian;
     font-style: normal;
     font-weight: 400;
@@ -901,7 +901,7 @@ h6 {
     pointer-events: all;
     -webkit-user-select: all;
     user-select: all;
-    color: #e23d1e;
+    color: #f8b95d;
     text-align: justify;
     font-style: normal;
     font-weight: 700;
@@ -1234,11 +1234,11 @@ h6 {
 }
 
 .tokenomics__item:not(:last-child) {
-    border-bottom: .25rem solid #e23d1e
+    border-bottom: .25rem solid #f8b95d
 }
 
 .tokenomics__item>span {
-    color: #e23d1e;
+    color: #f8b95d;
     font-style: normal;
     font-weight: 700;
     line-height: 130%
@@ -1268,7 +1268,7 @@ h6 {
 }
 
 .join__title {
-    color: #e23d1e;
+    color: #f8b95d;
     font-family: Russian;
     font-style: normal;
     font-weight: 400;
@@ -1289,7 +1289,7 @@ h6 {
 }
 
 .join__sub-title {
-    color: #e23d1e;
+    color: #f8b95d;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -1338,7 +1338,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e23d1e;
+    background-color: #f8b95d;
     box-shadow: 0 .25rem 0 0 #000;
     transition: box-shadow .2s ease 0s, -webkit-transform .2s ease 0s;
     transition: box-shadow .2s ease 0s, transform .2s ease 0s;
@@ -1372,7 +1372,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e23d1e;
+    background-color: #f8b95d;
     box-shadow: 0 .25rem 0 0 #000;
     transition: box-shadow .2s ease 0s, -webkit-transform .2s ease 0s;
     transition: box-shadow .2s ease 0s, transform .2s ease 0s;
@@ -1713,7 +1713,7 @@ h6 {
         overflow: auto;
         padding: 1.25rem .9375rem 1.25rem .9375rem;
         transition: right .3s;
-        background-color: #e23d1e;
+        background-color: #f8b95d;
         border-bottom: .125rem solid #000;
         border-left: .125rem solid #000
     }
@@ -1914,7 +1914,7 @@ h6 {
         width: 100%
     }
     .tokenomics__item:not(:last-child) {
-        border-bottom: .125rem solid #e23d1e
+        border-bottom: .125rem solid #f8b95d
     }
     .join__container {
         flex-direction: column
@@ -2151,7 +2151,7 @@ h6 {
         transform: translate(-50%) scaleX(1)
     }
     .header__buy:hover {
-        background-color: #e23d1e
+        background-color: #f8b95d
     }
     .header__buy:hover span {
         color: #fff
@@ -2180,9 +2180,9 @@ h6 {
         box-shadow: 0 0 0 0 #000
     }
     .join__menu-item:hover {
-        color: #e23d1e
+        color: #f8b95d
     }
     .join__bootom-social-item:hover svg path {
-        fill: #e23d1e
+        fill: #f8b95d
     }
 }
