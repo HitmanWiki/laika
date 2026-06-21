@@ -834,7 +834,98 @@ h6 {
     -webkit-animation: fly2 6s ease infinite;
     animation: fly2 6s ease infinite
 }
+/* Address wrapper styles */
+.tokenomics__item--address .address-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
 
+.tokenomics__item--address .address-text {
+    word-break: break-all;
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+/* Copy button styles */
+.copy-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 215, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.copy-btn:active {
+    transform: scale(0.95);
+}
+
+.copy-btn.copied {
+    background: rgba(0, 255, 0, 0.2);
+    border-color: #00ff00;
+}
+
+.copy-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .tokenomics__item--address .address-text {
+        font-size: 11px;
+        max-width: calc(100% - 50px);
+    }
+    
+    .tokenomics__item--address .address-wrapper {
+        gap: 6px;
+    }
+    
+    .copy-btn {
+        width: 28px;
+        height: 28px;
+        padding: 4px 6px;
+    }
+    
+    .copy-btn svg {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tokenomics__item--address {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+    
+    .tokenomics__item--address .address-wrapper {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    
+    .tokenomics__item--address .address-text {
+        font-size: 20px;
+        max-width: calc(100% - 40px);
+    }
+}
 .about-how__info h3 {
     color: #ece6de;
     text-align: justify;

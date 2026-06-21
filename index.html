@@ -18,7 +18,16 @@
         }
     </style>
     <link rel="stylesheet" href="css/style.min.css?_v=20250130173418" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo.png" />
+    <link rel="shortcut icon" href="img/logo.png" type="image/png" />
+    
+    <!-- For better browser compatibility -->
+    <link rel="icon" href="img/logo.png" type="image/png" />
+    <link rel="icon" href="img/logo.ico" type="image/x-icon" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -28,7 +37,9 @@
         <div class="menu-open-bg"></div>
         <header class="header">
             <div class="header__container">
-                <a href="../" class="header__logo"><img src="img/logo.png" alt="Logo Laika" /></a>
+                <a href="../" class="header__logo" style="width: auto !important; transform: none !important;">
+    <img src="img/logo.png" alt="Asteroid Floki" style="height: 60px !important; width: auto !important; display: block !important;" />
+</a>
                 <div class="header__right">
                     <div class="header__menu menu">
                         <button type="button" class="menu__icon icon-menu">
@@ -127,12 +138,9 @@ First mover OG ASTEROIDFLOKI on Eth.
                         </div>
                     </div>
                 </section>
-                <div class="about-how__info pl-func pr-func">
-                    <h3>Now Doing CTO</h3>
-                    <p>
-                       The journey has only begun. Join Asteroid Floki as we chart a course through the cosmos and prove that even the smallest explorer can leave a giant mark on the universe.
-                    </p>
-                </div>
+                <div class="about-how__info pl-func pr-func" style="text-align: center; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 20px;">
+    <img src="img/tweet.jpg" alt="Asteroid Floki CTO" style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); display: block; margin: 0 auto;" />
+</div>
                 <section class="about-how__how how" data-watch="navigator">
                     <div class="how__container">
                         <div class="how__image">
@@ -211,39 +219,47 @@ First mover OG ASTEROIDFLOKI on Eth.
                     <img src="img/tokenomics/bg.png" alt="Image" />
                 </div>
                 <section class="tokenomics-join__tokenomics tokenomics" data-watch="navigator">
-                    <div class="tokenomics__title">
-                        <img src="img/tokenomics/Title.png" alt="LaikaNomics" />
-                        <img src="img/tokenomics/Title.png" alt="LaikaNomics" />
-                    </div>
-                    <div class="tokenomics__container">
-                        <div class="tokenomics__items">
-                            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
-                                <span>Symbol:</span>
-                                <span><span>$</span>ASTEROIDFLOKI</span>
-                            </div>
-                            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
-                                <span>TAX:</span>
-                                <span>0/0</span>
-                            </div>
-                            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
-                                <span>Total Supply:</span>
-                                <span>1,000,000,000<span></span></span>
-                            </div>
-                            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
-                                <span>Liquidity Pool:</span>
-                                <span>Burned Forever</span>
-                            </div>
-                            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
-                                <span>Address:</span>
-                                <span>0x1b9108E11745390b568EC5b0608E9735aBA7FbAf</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+    <div class="tokenomics__title">
+        <img src="img/tokenomics/Title.png" alt="LaikaNomics" />
+        <img src="img/tokenomics/Title.png" alt="LaikaNomics" />
+    </div>
+    <div class="tokenomics__container">
+        <div class="tokenomics__items">
+            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
+                <span>Symbol:</span>
+                <span><span>$</span>ASTEROIDFLOKI</span>
+            </div>
+            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
+                <span>TAX:</span>
+                <span>0/0</span>
+            </div>
+            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
+                <span>Total Supply:</span>
+                <span>1,000,000,000<span></span></span>
+            </div>
+            <div class="tokenomics__item" data-watch-threshold="0.85" data-watch-once data-watch>
+                <span>Liquidity Pool:</span>
+                <span>Burned Forever</span>
+            </div>
+           <div class="tokenomics__item tokenomics__item--address" data-watch-threshold="0.85" data-watch-once data-watch>
+    <span>Address:</span>
+    <span class="address-wrapper">
+        <span class="address-text">0x1b9108E11745390b568EC5b0608E9735aBA7FbAf</span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('0x1b9108E11745390b568EC5b0608E9735aBA7FbAf').then(() => { this.classList.add('copied'); setTimeout(() => this.classList.remove('copied'), 2000); })" title="Copy Address">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+        </button>
+    </span>
+</div>
+        </div>
+    </div>
+</section>
                 <section class="tokenomics-join__join join" data-watch="navigator">
                     <div class="join__container">
                         <div class="join__image">
-                            <img src="img/tokenomics/01.png" alt="Laika" />
+                            <img src="img/hero/01.png" alt="Laika" />
                         </div>
                         <div class="join__content">
                             <h2 class="join__title" data-watch-threshold="0.85" data-watch-once data-watch>
